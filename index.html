@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+             background-color: rgb(224, 224, 224);
+        }
+
+        .container {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: -18px;
+        }
+
+        h2 {
+            margin-left: 4%;
+        }
+
+        .navLists {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        .navItem {
+            display: inline-block;
+        }
+
+        .navLink {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+        }
+        .clsSection{
+           margin-left: 10px;
+        }
+        .clsProject{
+            background-color: white;
+            width: 99%;
+            border-radius: 2px;
+            border-left: 4px solid green;
+        }
+        b,p{
+            margin-left: 5px;
+        }
+        #YourNM{
+            color: blueviolet;
+        }
+        input[type="text"],input[type="email"],input[type="textarea"]{
+                  width: 97%;
+                  border: none;
+                  padding: 10px;
+                  margin-bottom: 8px;
+        }
+         .btnBlue {
+            background-color: rgb(42, 42, 197);
+            width: 150px;
+            padding: 8px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+        .btnBlue:hover{
+            background-color: rgb(108, 169, 239);
+            color:rgb(252, 249, 249);
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 1px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="herosection">
+        <div class="container">
+            <header>
+                <h2>Koyal Nimbalkar</h2>
+            </header>
+            <nav>
+
+                <ul class="navLists">
+                    <li class="navItem">
+                        <a href="#" class="navLink">About</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">Projects</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="clsSection">
+            <h3>About</h3>
+            <p>I am frontend developer passionate about UI design and web accessibility.</p>
+            <h3>Projects</h3>
+            <div class="clsProject">
+                <b> Portfolio Website</b><br>
+                <p> Resopnsive Portfolio built by html and css.</p>
+            </div>
+             <div class="clsProject">
+                <b> Icecream Website</b><br>
+                <p> Simple to do list from local storage.</p>
+            </div>
+            <h3>Contact Me</h3>
+            <input type="text" name="nm" placeholder="Your Name" id="YourNM">
+            <input type="email" name="email" placeholder="Email Address">
+            <input type="textarea" placeholder="Your Message">
+             <input type="submit" class="btnBlue" value="Send">
+        </div><br>
+        <footer><h4>@2026 Koyal Nimbalkar</h4></footer>
+    </div>
+</body>
+
+</html>
